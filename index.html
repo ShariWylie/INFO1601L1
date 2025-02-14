@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="My first website">
+    <meta name="keywords" content="INFO1601, uwi, web">
+    <title>My First Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>This is my first website</h1>
+    </header>
+
+    <article>
+        <section>
+            <h2>Welcome</h2>
+        </section>
+
+        <section>
+            <figure>
+                <img src="https://www.bing.com/th?id=OIP.PVuikEmBtJ7CwtOFfJASGQHaEo&w=176&h=185&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="a random cat">
+                <figcaption>Fig 1. A random cat</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Reading</li>
+                    <li>Baking</li>
+                    <li>Coding</li>
+                    <li>Embroidery</li>
+                    <li>Watching movies</li>
+                    <li>Cooking</li>
+                </ul>
+            </details>
+        </section>
+
+        <dialog id="mydialog">
+            Hi, welcome to my website.
+            <a href="javascript:document.getElementById('mydialog').removeAttribute('open')">close</a>
+        </dialog>
+
+        <a href="javascript:document.getElementById('mydialog').setAttribute('open', true)">
+            Open Dialog
+        </a>
+    </article>
+</body>
+</html>
